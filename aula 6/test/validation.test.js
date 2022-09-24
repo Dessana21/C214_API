@@ -13,7 +13,7 @@ it('Caso válido', () => {
 
 it('Caso inválido - sem o parâmetro nome', () => {
     const result = Validation.create({
-        nome: "Dessana",
+        ano:"2000",
         produtora: "prod.brazil"
     });
     expect(result.name).toEqual(Constants.ErrorValidation.name);
